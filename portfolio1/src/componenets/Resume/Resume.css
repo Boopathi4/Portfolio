@@ -1,0 +1,69 @@
+.main {
+    width: 100%;
+    height: 100%;
+    color: white;
+    align-items: center;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    background-image: url(/src/assets/Skyback.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    flex-direction: column;
+}
+.main button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.doc{
+    width: 100%;
+}
+.pdf{
+    height: 90%;
+    width: 600px;              ;
+}
+.btn4{
+    background-color:blue;
+    padding: 5px;
+    color: whitesmoke;
+    border-radius: 6px 
+
+}
+.btn4 a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+@media screen and (max-width: 600px) {
+    .res {
+      height: 100%;
+      width: 100%;
+      padding-right: 5px;
+
+      scale: 0.5;
+        
+      /* overflow-x:visible; */
+    }
+    
+/* element.style {
+    display: block;
+    user-select: none;
+    width: 100%;
+    height: 100%;
+} */
+    .pdf{
+        height: 100%;
+        width: 100%;
+
+    }
+    
+  }
+  @media screen and (max-width: 460px) {
+    .pdf{
+        scale: 0.5;
+
+        padding-right: 50%;
+    }
+    
+    
+  }
